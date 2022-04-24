@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>综合案例-五彩导航</title>
+    <style>
+        .nav a {
+            display: inline-block;
+            width: 120px;
+            height: 58px;
+            background-color: aqua;
+            text-align: center;
+            line-height: 48px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .nav .bg1 {
+            background: url(images/bg1.png) no-repeat;
+        }
+
+        .nav .bg2 {
+            background: url(images/bg2.png) no-repeat;
+        }
+
+        .nav .bg3 {
+            background: url(images/bg3.png) no-repeat;
+        }
+
+        .nav .bg4 {
+            background: url(images/bg4.jpg) no-repeat;
+        }
+
+        .nav .bg5 {
+            background: url(images/bg5.png) no-repeat;
+        }
+
+        .nav .bg1:hover {
+            background: url(images/bg11.png);
+        }
+
+        .nav .bg2:hover {
+            background: url(images/bg22.png);
+        }
+
+        .nav .bg3:hover {
+            background: url(images/bg5.png);
+        }
+
+        .nav .bg4:hover {
+            background: url(images/bg1.png);
+        }
+
+        .nav .bg5:hover {
+            background: url(images/bg2.png);
+        }
+
+        /* 
+        练习价值:
+        1.链接属于行内元素,但是此时需要宽度高度,因此需要模式转换. 
+        2.里面文字需要水平和垂直居中,因此需要单行文字垂直居中的代码.
+        3.链接页面需要设置背景图片.因此需要用到背景相关的属性设置.
+        3.鼠标经过变化背景图片,因此需要用到链接伪类选择器.
+        */
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <a href="#" class="bg1">五彩导航</a>
+        <a href="#" class="bg2">五彩导航</a>
+        <a href="#" class="bg3">五彩导航</a>
+        <a href="#" class="bg4">五彩导航</a>
+        <a href="#" class="bg5">五彩导航</a>
+    </div>
+</body>
+
+</html>
